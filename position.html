@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Positions</title>
+        <style>
+            *{margin: 0px;padding: 0px}
+            .b{
+                width: 300px;
+                height: 300px;
+                background: blue;
+                margin: 150px;
+            }
+            .s{
+                width: 100px;
+                height: 100px;
+                background: red;
+                position: static;
+                left: 30px;
+                top: 50px;
+            }
+            .r{
+                width: 100px;
+                height: 100px;
+                background: green;
+                position: relative;
+                left: 30px;
+                top: 40px;
+            }
+            .r1{
+                width: 100px;
+                height: 100px;
+                background: orange;
+                position: relative;
+                left: 30px;
+                top: 40px;
+            }
+            .a{
+                width: 100px;
+                height: 100px;
+                background: yellow;
+                position: absolute;
+                top: 300px;
+                left: 500px;
+                z-index: 20
+            }
+            .f{
+                width: 100px;
+                height: 100px;
+                background: gray;
+                position: fixed;
+                left: 450px;
+                top: 300px;
+                z-index: 5;
+            }
+            .z{
+                width: 100px;
+                height: 100px;
+                background: gray;
+                position: fixed;
+                left: 550px;
+                top: 300px;
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="b">
+            <div class="s">Static</div>        
+            <div class="r">Relative</div>        
+            <div class="a">Static</div>        
+            <div class="f">Static</div>        
+            <div class="z">Static</div>        
+            <div class="r1">Static</div>        
+        </div>
+    </body>
+</html>
